@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s ease-in-out;
+    transition-duration: 400ms;
+    transition-delay: 75ms;
+    letter-spacing: 0.03rem;
+    height: 100vh;
+    background-color: rgb(166, 211, 207);
+}
+section{
+    height: 450px;
+}
+section nav{
+    position: sticky;
+    top: 0;
+    padding: 0px 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(12, 61, 57);
+}
+section nav a.nav-drand{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+section nav .element{
+    /* margin: 0px 40px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 2px;;
+}
+section a{
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+    transition-duration: 400ms;
+    transition-delay: 75ms;
+    letter-spacing: 0.03rem;
+}
+section a:hover{
+    color: rgba(240, 248, 255, 0.644);
+}
+
+.box-element{
+    position: relative;
+    width:100%;
+    height: 450px;
+    background-color: rgba(219, 219, 228, 0.637);
+}
+.box-element .element {
+    position: absolute;
+    inset: 0px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid red;
+    background-color: rgba(34, 34, 228, 0.637);
+}
+.main-content{
+    margin: 0px 14px;
+}
+article{
+    max-width: 650px;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.856);
+    border: 1px solid rgb(33, 95, 54);
+    border-radius: 6px;
+}
+article>div{
+    margin-bottom: 15px;
+}
+article h3{
+    display: inline;
+    border-bottom: 1px solid rgb(33, 95, 54);
+}
+article p{
+    margin: 0px;
+}
+article strong{
+    color: rgb(33, 95, 54);
+    
+}
